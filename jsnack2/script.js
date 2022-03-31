@@ -10,7 +10,7 @@ let num5 = prompt ("Quinto numero")
 let num6 = prompt ("Sesto numero")*/
 const div = document.querySelector("div.app")
 let nums = []
-let num = []
+let shots = []
 
 for(let i = 0; i< 6; i++){
     let nums = prompt("Scegli un numero")
@@ -19,14 +19,14 @@ for(let i = 0; i< 6; i++){
 }
 
     if(!(nums % 2 === 0)){
-        num.push
+        shots.push
         div.append
         
         
 
     }
 
-    console.log(num)
+    console.log(shots)
 
 
 
